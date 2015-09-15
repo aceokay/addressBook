@@ -1,6 +1,8 @@
-// var addressBook = function(firstName, lastName, address) {
-//
-// };
+function Contact(firstName,lastName){
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.addresses = [];
+}
 
 $(document).ready(function() {
   $("#add-address").click(function() {
